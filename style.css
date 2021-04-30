@@ -11,12 +11,12 @@ body{
     padding-top: 6px;
     padding-bottom: 10px;
     margin-bottom: 60px;
-    background-color: #af0f0f;
+    background-color: #2b9600;
 }
 
 .tlo{
     width: 80%;
-    background-color: #810000;
+    background-color: #5a5961;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -35,18 +35,18 @@ body{
 #pizza{
     width: 75%;
     margin-left: 10px;
-    background-color: #e42200;
+    background-color: #21b339;
     font-size: 18px;
-    border: 1px solid #af0f0f;
+    border: 1px solid #2b9600;
     color: seashell;
 }
 
 .inp{
     width: 75%;
     margin-left: 10px;
-    background-color: #e42200;
+    background-color: #21b339;
     font-size: 18px;
-    border: 1px solid #af0f0f;
+    border: 1px solid #2b9600;
     margin-bottom: 16px;
     color: seashell;
 }
@@ -55,9 +55,9 @@ body{
     width: 75%;
     height: 90px;
     margin-left: 10px;
-    background-color: #e42200;
+    background-color: #21b339;
     font-size: 18px;
-    border: 1px solid #af0f0f;
+    border: 1px solid #2b9600;
     color: seashell;
     margin-bottom: 10px;
 }
@@ -67,9 +67,9 @@ body{
     height: 30px;
     margin-top: 15px;
     margin-left: 10px;
-    background-color: #e42200;
+    background-color: #21b339;
     font-size: 20px;
-    border: 1px solid #af0f0f;
+    border: 1px solid #2b9600;
     color: seashell;
 }
 
