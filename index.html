@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tlo">
+        <div>
+            <p class="tytul">Pizzeria 'wklej kreatywną nazwę'</p>
+        
+            <div><input type="text" placeholder="Imię" id="imie" class="inp"></div>
+
+            <div><input type="text" placeholder="Nazwisko" id='nazwisko' class="inp"></div>
+    
+            <div><input type="tekst" placeholder="email" id='email' class="inp"></div>
+    
+            <div><input type="tekst" placeholder="telefon" id="tel" class="inp"></div>
+    
+            <div><input type="text" placeholder="Wiadomość do sprzedającego" id="wiad" class="inp1"></div>
+
+            <p class="tekst">pizza</p>
+            <div><select id="pizza" onchange="pizza(value)">
+                <option value="pizza1">Hawajska</option>
+                <option value="pizza2">Chłopska</option>
+                <option value="pizza3">Margheritta</option>
+                <option value="pizza4">Vegetariana</option>
+                <option value="pizza5">capricciosa</option>
+            </select></div>
+
+            <div><button class="btn">Wyślij</button></div>
+        </div>
+
+        <div>
+            <img class="img2" src="./img/pizza2.jpeg" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
