@@ -22,23 +22,17 @@
 //     }
 // }
 
-function imie() {
+function wyslij() {
     const imie = document.getElementById('imie').value
     if(imie.length < 2) {
         alert('Wpisz imi')
     } else 
     console.log(imie)
-}
-
-function nazwisko() {
     const nazwisko = document.getElementById('nazwisko').value
     if(nazwisko.length < 3) {
         alert('Wpisz nazwisko')
     }else
     console.log(nazwisko)
-}
-
-function wiad() {
     const wiad = document.getElementById('wiad').value
     if(wiad.length < 10) {
         alert('Za krótka wiadomość')
@@ -65,4 +59,5 @@ function email() {
     else{
     console.log(email)}
 }
+
 
