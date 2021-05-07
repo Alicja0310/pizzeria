@@ -47,19 +47,7 @@ body{
     background-color: #21b339;
     font-size: 18px;
     border: 1px solid #2b9600;
-    margin-bottom: 16px;
     color: seashell;
-}
-
-.inp1{
-    width: 75%;
-    height: 90px;
-    margin-left: 10px;
-    background-color: #21b339;
-    font-size: 18px;
-    border: 1px solid #2b9600;
-    color: seashell;
-    margin-bottom: 10px;
 }
 
 .btn{
@@ -77,4 +65,12 @@ body{
     width: 600px;
     height: auto;
     margin-top: 30px;
+}
+
+#imie-error{
+    visibility: hidden;
+}
+
+#nazwisko-error{
+    visibility: hidden;
 }

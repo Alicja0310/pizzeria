@@ -10,29 +10,39 @@
 <body>
 
     <div class="tlo">
+
         <div>
+
             <p class="tytul">Pizzeria 'wklej kreatywną nazwę'</p>
         
-            <div><input type="text" placeholder="Imię Nazwisko" id="imie" class="inp"></div>
-
-            <div><input type="text" placeholder="Adres" id='adres' class="inp"></div>
-    
+            <div><input type="text" placeholder="Imię" id="imie" class="inp"></div>
+            <p id="imie-error">BŁĘDNE IMIĘ</p>
+            <div><input type="text" placeholder="nazwisko" id='nazwisko' class="inp" ></div>
+            <p id="nazwisko-error">BŁĘDNE NAZWISKO</p>
             <div><input type="tekst" placeholder="email" id='email' class="inp"></div>
-    
+            
             <div><input type="tekst" placeholder="telefon" id="tel" class="inp"></div>
     
-            <div><input type="text" placeholder="Wiadomość do sprzedającego" id="wiad" class="inp1"></div>
+            <div><input type="text" placeholder="Wiadomość do sprzedającego" id="wiad" class="inp"></div>
+
 
             <p class="tekst">pizza</p>
-            <div><select id="pizza" onchange="pizza(value)">
+
+            <div><select id="pizza">
+
                 <option value="pizza1">Hawajska</option>
+
                 <option value="pizza2">Chłopska</option>
+
                 <option value="pizza3">Margheritta</option>
+
                 <option value="pizza4">Vegetariana</option>
+
                 <option value="pizza5">capricciosa</option>
+
             </select></div>
 
-            <div><button class="btn">Wyślij</button></div>
+            <button class="btn" onclick="wyslij()">Wyślij</button>
         </div>
 
         <div>
@@ -40,5 +50,6 @@
         </div>
     </div>
 
+    <script src="main.js"></script>
 </body>
 </html>
